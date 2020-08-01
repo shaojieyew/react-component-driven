@@ -1,0 +1,31 @@
+<ThemeProvider theme={theme}>
+  <Flex
+    as="main"
+    p={4}
+  >
+    <Stack
+      as="section"
+      padding={4}
+      gap={4}
+      marginX="auto"
+      width={2 / 3}
+      backgroundColor="muted"
+      border="thin"
+      borderColor="secondary"
+    >
+      <Heading>
+        Saluki
+      </Heading>
+      <Box
+        borderBottom="thin"
+        borderColor="accent"
+        height={1}
+      />
+      <Text>
+        Don’t leave any food
+        on a table when saluki
+        is around.
+      </Text>
+    </Stack>
+  </Flex>
+</ThemeProvider>;
